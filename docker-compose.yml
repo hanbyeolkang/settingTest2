@@ -84,7 +84,7 @@ services:
       airflow-init:
         condition: service_completed_successfully
     # user: "50000:0"       # Mac
-    user: "50000:994"   # EC2
+    user: "50000:992"   # EC2
 
   # Airflow Scheduler
   airflow-scheduler:
@@ -102,7 +102,7 @@ services:
       airflow-init:
         condition: service_completed_successfully
     # user: "50000:0"       # Mac
-    user: "50000:994"   # EC2
+    user: "50000:992"   # EC2
 
   # dbt
   dbt-runner:
